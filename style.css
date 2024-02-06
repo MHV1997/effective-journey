@@ -1,0 +1,175 @@
+/* Author: Mayomi Vitharana
+Date: 05 Feb 2024
+*/
+
+/*
+COLOURS
+#211d1c - dark brown (for text)
+#2f261d - brown
+#4389a2 - teal
+#c62d03 - burnt red
+*/
+
+/* GLOBAL SETTING
+----------------------------------------
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+body {
+	font-size: 16px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	color: #211d1c;
+	margin: 0;
+}
+
+#wrapper {
+	position: relative;
+	width: 1200px; 
+	margin: 0 auto;
+    }
+
+h1 {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.6em;
+	font-weight: 500;
+}
+
+a {
+	color: darkred; 
+}
+
+a:visited {
+	color: black;
+}
+
+/* HEADER
+----------------------------------------
+*/
+
+header {
+    background: #2f261d url(Images/background.jpg);
+    height: 430px;
+    color: #ffffff;
+}
+
+header h1 {
+    visibility: hidden;
+}
+
+header img {
+    position: relative;
+    top: 20px; left: 20px;
+    z-index: 999;
+}
+
+/* NAVIGATION
+----------------------------------------
+*/
+
+nav {
+	background-color: rgba(0,0,0,0.65);
+	position: absolute;
+	top: 0px; left: 0px;
+	width: 100%; /* = 1200px */
+	padding-top: 45px;
+
+}
+
+nav a {
+	color: #ffffff; /* white */
+	text-decoration: none;
+	padding: 20px 30px 20px 30px;
+}
+
+nav a:hover {
+	background-color:burlywood;
+}
+
+nav a:visited {
+	color: #ffffff;
+}
+
+nav ul {
+	padding-left: 300px;
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+}
+
+nav span {
+    padding: 15px 20px 15px 20px;
+	background-color: #356d81;
+    color: #ffffff;
+}
+
+
+/* CONTENT 1
+----------------------------------------
+*/
+
+#three-columns  {
+    display: flex;
+    background-color:bisque;   
+    margin: auto;
+    margin-right: 20px;
+}
+
+#three-columns li {
+    display: inline;
+    text-decoration: none;
+}
+
+/* SIDEBAR
+----------------------------------------
+*/
+
+aside {
+    display: flex;
+    background-color: #BC822E;
+    text-decoration: none;
+    margin: auto;
+}
+
+h2{
+    font-size: 1.2em;
+}
+
+aside img {
+    width: 30%; height: auto; 
+    position: relative;
+}
+
+aside section {
+    padding:inherit;
+}
+
+/* FOOTER
+----------------------------------------
+*/
+footer ul{ 
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer h3 {
+    position: relative;
+}
+
+footer li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer img {
+    position: relative; 
+}
